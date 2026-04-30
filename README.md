@@ -112,19 +112,36 @@ public class Main {
 ## Resultados
 
 
+
+LISTA DOBLEMENTE ENLAZADA CIRCULAR
 1. Insertar al inicio
-Dato a insertar: 10
-Lista: 10 <-> (circular -> 10)
-
 2. Insertar al final
-Dato a insertar: 20
-Lista: 10 <-> 20 <-> (circular -> 10)
-
+3. Eliminar al inicio
+4. Eliminar al final
 5. Buscar elemento
-Dato a buscar: 20
-Encontrado
+6. Imprimir lista
+7. Salir
+Seleccione una opción: 3
+Error: Lista vacía
+La lista está vacía
 
-## Estructura del Proyecto
-- Nodo.java → clase del nodo
-- ListaDobleCircular.java → operaciones de la lista
-- Main.java → menú interactivo
+LISTA DOBLEMENTE ENLAZADA CIRCULAR
+1. Insertar al inicio
+2. Insertar al final
+3. Eliminar al inicio
+4. Eliminar al final
+5. Buscar elemento
+6. Imprimir lista
+7. Salir
+Seleccione una opción: 2
+Dato a insertar: dato
+Exception in thread "main" java.util.InputMismatchException
+        at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+        at java.base/java.util.Scanner.next(Scanner.java:1632)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2297)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2251)
+        at Main.main(Main.java:139)
+
+
+...Program finished with exit code 1
+Press ENTER to exit console.
