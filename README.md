@@ -1,38 +1,34 @@
-# Examen Parcial - Estructuras de Datos
+Información del Estudiante
+Nombre: Gracia Alexandra Carrillo Santizo
 
-## Información del Estudiante
-- **Nombre:** Gracia Alexandra Carrillo Santizo  
-- **Carné:** 202504126  
-- **Curso:** Estructura de Datos  
-- **Catedrático:** Ing. Brandon Chitay  
-- **Universidad:** Universidad Da Vinci de Guatemala  
+Carné: 202504126
 
-## Descripción del Proyecto
+Curso: Estructura de Datos
+
+Catedrático: Ing. Brandon Chitay
+
+Universidad: Universidad Da Vinci de Guatemala
+
+
+Descripción del Proyecto
 Implementación en Java de una lista doblemente enlazada circular con operaciones de inserción, eliminación, búsqueda e impresión, además de un menú interactivo.
 
-## Video Explicativo
+Video Explicativo
 (https://youtu.be/nkn9TxpxUTA)
 
-## Instrucciones de Compilación y Ejecución
-```bash
+Instrucciones de Compilación y Ejecución
+bash
 javac Nodo.java ListaDobleCircular.java Main.java
 java Main
+Estructura del Proyecto
+Nodo.java → clase del nodo
 
-javac Nodo.java ListaDobleCircular.java Main.java
-java Main
+ListaDobleCircular.java → operaciones de la lista
 
+Main.java → menú interactivo
 
-javac Nodo.java ListaDobleCircular.java Main.java
-java Main
-
-
-
-
-
-
-# parcial-dos
-código base.
-
+Código Base
+java
 // Nodo.java
 public class Nodo {
     int dato;
@@ -45,8 +41,7 @@ public class Nodo {
         this.siguiente = null;
     }
 }
-
-
+java
 // ListaDobleCircular.java (fragmento)
 public class ListaDobleCircular {
     Nodo head;
@@ -80,8 +75,7 @@ public class ListaDobleCircular {
         System.out.println("(circular -> " + head.dato + ")");
     }
 }
-
-
+java
 // Main.java (fragmento)
 import java.util.Scanner;
 
@@ -108,11 +102,8 @@ public class Main {
         } while(opcion != 7);
     }
 }
-
-## Resultados
-
-
-
+Resultados
+text
 LISTA DOBLEMENTE ENLAZADA CIRCULAR
 1. Insertar al inicio
 2. Insertar al final
@@ -121,27 +112,21 @@ LISTA DOBLEMENTE ENLAZADA CIRCULAR
 5. Buscar elemento
 6. Imprimir lista
 7. Salir
-Seleccione una opción: 3
-Error: Lista vacía
-La lista está vacía
 
-LISTA DOBLEMENTE ENLAZADA CIRCULAR
-1. Insertar al inicio
-2. Insertar al final
-3. Eliminar al inicio
-4. Eliminar al final
-5. Buscar elemento
-6. Imprimir lista
-7. Salir
+Seleccione una opción: 1
+Dato a insertar: 10
+Lista: 10 <-> (circular -> 10)
+
 Seleccione una opción: 2
-Dato a insertar: dato
-Exception in thread "main" java.util.InputMismatchException
-        at java.base/java.util.Scanner.throwFor(Scanner.java:977)
-        at java.base/java.util.Scanner.next(Scanner.java:1632)
-        at java.base/java.util.Scanner.nextInt(Scanner.java:2297)
-        at java.base/java.util.Scanner.nextInt(Scanner.java:2251)
-        at Main.main(Main.java:139)
+Dato a insertar: 20
+Lista: 10 <-> 20 <-> (circular -> 10)
 
+Seleccione una opción: 5
+Dato a buscar: 20
+Encontrado
 
-...Program finished with exit code 1
-Press ENTER to exit console.
+Seleccione una opción: 3
+Lista: 20 <-> (circular -> 20)
+
+Seleccione una opción: 4
+La lista está vacía
