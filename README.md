@@ -1,7 +1,29 @@
-Nombre del alumno/a: Gracia Alexandra Carrillo Santizo
-Curso:Estructura de Datos
-Carné:202504126
-Universidad Da vinci de Guatemala
+# Examen Parcial - Estructuras de Datos
+
+## Información del Estudiante
+- **Nombre:** Gracia Alexandra Carrillo Santizo  
+- **Carné:** 202504126  
+- **Curso:** Estructura de Datos  
+- **Catedrático:** Ing. Brandon Chitay  
+- **Universidad:** Universidad Da Vinci de Guatemala  
+
+## Descripción del Proyecto
+Implementación en Java de una lista doblemente enlazada circular con operaciones de inserción, eliminación, búsqueda e impresión, además de un menú interactivo.
+
+## Video Explicativo
+(https://youtu.be/nkn9TxpxUTA)
+
+## Instrucciones de Compilación y Ejecución
+```bash
+javac Nodo.java ListaDobleCircular.java Main.java
+java Main
+
+javac Nodo.java ListaDobleCircular.java Main.java
+java Main
+
+
+javac Nodo.java ListaDobleCircular.java Main.java
+java Main
 
 
 
@@ -86,3 +108,4 @@ public class Main {
         } while(opcion != 7);
     }
 }
+
