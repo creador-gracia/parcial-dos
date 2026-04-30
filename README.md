@@ -1,3 +1,13 @@
+Nombre del alumno/a: Gracia Alexandra Carrillo Santizo
+Curso:Estructura de Datos
+Carné:202504126
+Universidad Da vinci de Guatemala
+
+
+
+
+
+
 # parcial-dos
 código base.
 
