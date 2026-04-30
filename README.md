@@ -109,3 +109,22 @@ public class Main {
     }
 }
 
+## Resultados
+
+
+1. Insertar al inicio
+Dato a insertar: 10
+Lista: 10 <-> (circular -> 10)
+
+2. Insertar al final
+Dato a insertar: 20
+Lista: 10 <-> 20 <-> (circular -> 10)
+
+5. Buscar elemento
+Dato a buscar: 20
+Encontrado
+
+## Estructura del Proyecto
+- Nodo.java → clase del nodo
+- ListaDobleCircular.java → operaciones de la lista
+- Main.java → menú interactivo
